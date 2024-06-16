@@ -16,14 +16,14 @@
                                 <div class="col-md-6">
                                     <div class="card-body">
                                         <div class="pt-4 pb-2">
-                                            <h5 class="card-title text-center pb-0 fs-4">Selamat Datang di Aplikasi SARAN MI</h5>
+                                            <h5 class="card-title text-center pb-0 fs-4">Selamat Datang di Aplikasi NGALOR.CO</h5>
                                         </div>
 
                                         <?php if (session()->getFlashdata('msg')) : ?>
                                             <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                                         <?php endif; ?>
 
-                                        <form class="row g-3 needs-validation" action="<?= site_url('/login') ?>" method="post" novalidate>
+                                        <form class="row g-3 needs-validation" action="<?= site_url('/loginSubmit') ?>" method="post" novalidate>
                                             <div class="col-12">
                                                 <label for="yourUsername" class="form-label">Username</label>
                                                 <input type="text" name="username" class="form-control" id="yourUsername" required>

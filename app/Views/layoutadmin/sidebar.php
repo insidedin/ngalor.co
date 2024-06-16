@@ -11,23 +11,23 @@
             </li><!-- End Dashboard Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="/pengaduan">
-                    <i class="bi bi-envelope"></i>
-                    <span>Manajemen Pengaduan</span>
-                </a>
-            </li><!-- End Manajemen Pengaduan Nav -->
+    <a class="nav-link collapsed" href="pageadmin/event/pesanan">
+        <i class="fas fa-ticket-alt"></i>
+        <span>Manajemen Pemesanan Tiket</span>
+    </a>
+</li><!-- End Manajemen Pemesanan Tiket Nav -->
+
+<li class="nav-item">
+    <a class="nav-link collapsed" href="pageadmin/event/index">
+        <i class="fas fa-calendar-alt"></i>
+        <span>Manajemen Konten Event</span>
+    </a>
+</li><!-- End Manajemen Konten Event Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="/konten">
-                    <i class="bi bi-file-text"></i>
-                    <span>Manajemen Konten</span>
-                </a>
-            </li><!-- End Manajemen Konten Nav -->
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/users">
+                <a class="nav-link collapsed" href="pageadmin/users/indexuser">
                     <i class="bi bi-people"></i>
-                    <span>Manajemen User</span>
+                    <span>Profile Admin</span>
                 </a>
             </li><!-- End Manajemen User Nav -->
             <hr>

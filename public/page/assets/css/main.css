@@ -189,7 +189,7 @@ h6 {
   }
 
   .navmenu li:hover > a {
-    color: pink; /* Warna saat dihover */
+    color: plum; /* Warna saat dihover */
   }
 
   .navmenu .active,
@@ -746,7 +746,7 @@ section,
 }
 
 .container .btn:hover {
-  background-color: pink;
+  background-color: plum;
 }
 
 
